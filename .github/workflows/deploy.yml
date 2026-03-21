@@ -25,4 +25,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist/public # Or 'build' - change this to match your build folder name
-          branch: gh-pages # This creates a clean branch for your live site
+          branch: gh-pages 
