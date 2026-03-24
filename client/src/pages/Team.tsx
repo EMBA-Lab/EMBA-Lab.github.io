@@ -5,11 +5,13 @@ import zoePortrait from "@assets/image_1773832538100.png";
 import viltePortrait from "@assets/image_1773833409747.png";
 import sallyPortrait from "@assets/image_1773834250244.png";
 
+
 export default function Team() {
+
   const alumni = [
-    { name: "Dr. James Wilson", role: "Postdoc (2020-2023)", now: "Lecturer at Bristol" },
-    { name: "Sarah Chen", role: "PhD Student (2019-2023)", now: "UX Researcher at Google" },
-    { name: "Michael O'Connor", role: "MRes Student (2022)", now: "PhD Candidate at UCL" }
+    { name: "Katherine Sawyer", role: "PhD Student (2021-2025)", now: "Postdoc at KCL" },
+    { name: "Constantinos Constantinides", role: "PhD Student (2019-2023)", now: "LCP Health Analytics" },
+    { name: "Lucy W?, Sophie T?", role: "PhD Student (20??)", now: "Postdoc at xx" }
   ];
 
   return (
@@ -171,3 +173,4 @@ export default function Team() {
     </div>
   );
 }
+
