@@ -1,11 +1,13 @@
-import estherPortrait from "@assets/image_1773831860999.png";
+import estherPortrait from "@assets/esther-portrait2.jpg";
 import marlenePortrait from "@assets/image_1773831955808.png";
 import fayePortrait from "@assets/image_1773832067639.png";
 import zoePortrait from "@assets/image_1773832538100.png";
 import viltePortrait from "@assets/image_1773833409747.png";
 import sallyPortrait from "@assets/image_1773834250244.png";
 
+
 export default function Team() {
+
   const alumni = [
     { name: "Dr. James Wilson", role: "Postdoc (2020-2023)", now: "Lecturer at Bristol" },
     { name: "Sarah Chen", role: "PhD Student (2019-2023)", now: "UX Researcher at Google" },
@@ -58,7 +60,8 @@ export default function Team() {
         {/* Current Members */}
         <section className="mb-24">
           <h3 className="text-2xl font-serif mb-8 border-b pb-4">Current Members</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
+		  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+			
             {[
               { 
                 name: "Dr. Marlene Staginnus", 
@@ -170,3 +173,4 @@ export default function Team() {
     </div>
   );
 }
+
