@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="absolute -right-6 bottom-1/3 bg-background/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-border/50 flex items-center gap-3 animate-in slide-in-from-right-4 duration-700 delay-700 fade-in fill-mode-both">
+              <div className="absolute -right-6 bottom-1/6 bg-background/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-border/50 flex items-center gap-3 animate-in slide-in-from-right-4 duration-700 delay-700 fade-in fill-mode-both">
                 <div className="h-10 w-10 bg-secondary rounded-full flex items-center justify-center">
                   <Users className="h-5 w-5 text-secondary-foreground" />
                 </div>
@@ -92,7 +92,17 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold">Epigenetics</p>
-                  <p className="text-xs text-muted-foreground">Test</p>
+                  <p className="text-xs text-muted-foreground">Methylation dynamics</p>
+                </div>
+			  </div>
+
+              <div className="absolute -right-1/10 top-1/20 bg-background/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-border/50 flex items-center gap-3 animate-in slide-in-from-right-4 duration-700 delay-700 fade-in fill-mode-both">
+                <div className="h-10 w-10 bg-secondary rounded-full flex items-center justify-center">
+                  <BookOpen className="h-5 w-5 text-secondary-foreground" />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold">Psychopathology</p>
+                  <p className="text-xs text-muted-foreground">Psychosis, depression, ADHD</p>
                 </div>
 
               </div>

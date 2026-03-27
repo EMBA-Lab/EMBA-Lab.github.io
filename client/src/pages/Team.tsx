@@ -4,14 +4,23 @@ import fayePortrait from "@assets/image_1773832067639.png";
 import zoePortrait from "@assets/image_1773832538100.png";
 import viltePortrait from "@assets/image_1773833409747.png";
 import sallyPortrait from "@assets/image_1773834250244.png";
+import sorchaPortrait from "@assets/image_1773834250245.png";
+import chrisPortrait from "@assets/image_1773834250246.png";
+import rosalynPortrait from "@assets/image_1773834250247.png";
+import emilyPortrait from "@assets/image_1773834250248.png";
 
 
 export default function Team() {
 
   const alumni = [
-    { name: "Dr. James Wilson", role: "Postdoc (2020-2023)", now: "Lecturer at Bristol" },
-    { name: "Sarah Chen", role: "PhD Student (2019-2023)", now: "UX Researcher at Google" },
-    { name: "Michael O'Connor", role: "MRes Student (2022)", now: "PhD Candidate at UCL" }
+    { name: "Katherine Sawyer", role: "PhD Student (2021-2025)", now: "Postdoc at KCL" },
+    { name: "Constantinos Constantinides", role: "PhD Student (2019-2023)", now: "LCP Health Analytics" },
+    { name: "Lucy Waldren", role: "PhD Student (2021-2024)", now: "Postdoc at Bath" },
+	{ name: "Sophie Townend", role: "PhD Student (2022-2025)", now: "Postdoc at Bath" },
+	{ name: "Shir Dahan", role: "Visiting Researcher (2025)", now: "PhD in Galway" },
+	{ name: "Jola Layinka", role: "PhD Student (2023-2026)", now: "" },
+	{ name: "Tatiana Stratton", role: "MSc Student (2022-2023)", now: "Hollyport" },
+	{ name: "Georgia Zavitsanou", role: "MSc Student (2020-2021)", now: "DClin UCL" }
   ];
 
   return (
@@ -82,34 +91,61 @@ export default function Team() {
                 linkedIn: "https://www.linkedin.com/in/vilte-baltramonaityte-2a4317158/",
               },
               { 
+                name: "Dr Emily Taylor", 
+                role: "Lab Manager",
+                image: emilyPortrait
+              },
+              { 
                 name: "Faye Sanders", 
                 role: "PhD Student", 
                 focus: "Mental Health & Environments", 
                 image: fayePortrait,
-                degrees: "BSc Psychology, MSc Clinical Psychology",
-                projects: "Exploring the role of DNA methylation in the relationship between housing quality and depressive symptoms. Conducting network analysis to understand the multifactorial causes of mood disorders in women.",
-                linkedIn: "https://www.linkedIn.net/",
-                googleScholar: "https://scholar.google.com/"
+                projects: "Faye is a PhD student focusing on the relationships between living environments, mental health and biological age. For example, Faye has researched relationships between poor housing quality, DNA methylation and depression. Faye’s current work looks at how features of the built environment, including green space and building density, associate with depression in adults and biological age in young people. Her work has informed changes to the Decent Homes Standard and has been used as evidence in House of Lords inquiries into the building of new towns. Faye is also Co-Chair of the Housing Studies Association’s Healthy Homes Research Network.",
+                linkedIn: "https://www.linkedin.com/in/faye-sanders/",
+                googleScholar: "https://scholar.google.com/citations?user=3tIILZ8AAAAJ&hl=en"
               },
               { 
                 name: "Zoe Hart", 
                 role: "PhD Student", 
-                focus: "Cognitive Aging", 
+                focus: "Cognitive Aging in Psychosis", 
                 image: zoePortrait,
-                degrees: "BSc Cognitive Neuroscience, MSc Neuroimaging",
-                projects: "Studying how epigenetic age and brain age correlate in young people and their predictive value for future health. Applying machine learning models to functional MRI data to predict cognitive trajectories.",
-                linkedIn: "https://www.linkedIn.net/",
-                googleScholar: "https://scholar.google.com/"
+                projects: "Zoe is a PhD student with a background in cognitive neuroscience and psychology. She is currently researching development of cognitive impairments in psychosis, with a focus on early life and epigenetic markers. More broadly, Zoe is interested in utilising longitudinal datasets to investigate how environmental and biological markers across development may help us predict later mental/brain health outcomes.",
+                linkedIn: "linkedin.com/in/zoe-hart-0242b61b7"
+              },
+			                { 
+                name: "Sorcha Hamilton", 
+                role: "PhD Student", 
+                focus: "Substance use and Neurodevelopment", 
+                image: sorchaPortrait,
+                projects: "Sorcha is a GW4 PhD student with a background in Neuroscience and Neuroimaging. She has a strong interest in adolescent neurodevelopment and psychopharmacology. Her current research combines MRI neuroimaging and epigenetic approaches to investigate the age-dependent effects of cannabis use. Specifically, her PhD examines whether adolescents are more sensitive than adults to cannabis-related changes in working memory function, white matter microstructure, and epigenetic ageing.",
+                linkedIn: "www.linkedin.com/in/sorcha-hamilton-242112117",
+                googleScholar: "https://scholar.google.com/citations?user=WLiqDS8AAAAJ&hl=en"
+              },
+              { 
+                name: "Chris Townend", 
+                role: "PhD Student", 
+                focus: "Computational Neuroimaging in Psychosis", 
+                image: chrisPortrait,
+                projects: "Chris is a PhD student investigating cognitive impairments in psychotic disorders through computational neuroimaging. Within the ENIGMA Consortium, his current project employs developmentally informed machine learning to map subclinical psychosis. Chris’s future work seeks to integrate multi-omics data, including proteomics, using normative modelling and data-driven subtyping to identify cognitive signatures of psychosis. Interested in bridging computational psychiatry and neuroimaging, Chris aims to refine the classification, prediction, and treatment of psychiatric disorders.",
+                linkedIn: "https://www.linkedin.com/in/chris-townsend-5614a8171/",
+                googleScholar: "https://scholar.google.com/citations?user=Ttbr0BIAAAAJ&hl=en&oi=sra"
               },
               { 
                 name: "Sally Turner", 
                 role: "PhD Student", 
-                focus: "Cognitive Psychology", 
-                image: sallyPortrait,
-                degrees: "BSc Experimental Psychology, MSc Cognitive Science",
-                projects: "Investigating the impact of prenatal stress on gestational epigenetic age and neurodevelopmental outcomes. Utilizing longitudinal birth cohort data to track behavioral phenotypes into early childhood.",
-                linkedIn: "https://www.linkedIn.net/",
-                googleScholar: "https://scholar.google.com/"
+                focus: "Substance use and ADHD", 
+                image: sallyPortrait
+              },
+              { 
+                name: "Katie Koziell", 
+                role: "PhD Student", 
+                focus: "Roden Model of BrainHealth"
+              },
+              { 
+                name: "Rosalyn Acevedo", 
+                role: "PhD Student", 
+                focus: "Role of Hyaluronan in Cognition", 
+                image: rosalynPortrait
               }
             ].map((member) => (
               <div key={member.name} className="group">

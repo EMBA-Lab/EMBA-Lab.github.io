@@ -13,52 +13,82 @@ L.Icon.Default.mergeOptions({
 export default function Collaborators() {
   const collaborators = [
     {
-      name: "Dr. Sarah Johnson",
-      institution: "Cardiff University",
-      location: "Cardiff, UK",
-      coordinates: [51.4816, -3.1791] as [number, number],
-      role: "Co-Investigator, BrainHealth Project",
-      focus: "Neuroimaging Data Harmonization"
-    },
-    {
-      name: "Prof. Michael van der Veen",
+      name: "Associate Prof. Charlotte Cecil",
       institution: "Erasmus Medical Centre",
       location: "Rotterdam, Netherlands",
-      coordinates: [51.9126, 4.4682] as [number, number],
-      role: "Key Collaborator",
-      focus: "Population Genetics & Lifespan Cohorts"
+      coordinates: [51.9126, 4.4682] as [number, number]
     },
     {
-      name: "Dr. Jan Novak",
-      institution: "National Institute of Mental Health",
-      location: "Prague, Czech Republic",
-      coordinates: [50.1802, 14.4447] as [number, number],
-      role: "Research Partner",
-      focus: "Clinical Psychiatry & Biomarkers"
+      name: "Prof. Erin Dunn",
+      institution: "Purdue University",
+      location: "Indianapolis, USA",
+      coordinates: [40.42558371580474, -86.91576065034664] as [number, number]
     },
     {
-      name: "Prof. Amanda Lussier",
-      institution: "Massachusetts General Hospital",
+      name: "Prof. Alex Lussier",
+      institution: "McLean Hospital and Harvard Medical School",
       location: "Boston, USA",
-      coordinates: [42.3620, -71.0694] as [number, number],
-      role: "Epigenetics Advisor",
-      focus: "DNA Methylation Clocks"
+      coordinates: [42.39447201719427, -71.19020667773434] as [number, number]
     },
     {
-      name: "Dr. Thomas Berg",
-      institution: "Max Planck Institute",
-      location: "Leipzig, Germany",
-      coordinates: [51.3397, 12.3731] as [number, number],
-      role: "Computational Consultant",
-      focus: "Machine Learning & Brain Age Models"
+      name: "Prof. Anthony Isles",
+      institution: "Cardiff University",
+      location: "Cardiff, UK",
+      coordinates: [51.4816, -3.1791] as [number, number]
     },
     {
-      name: "Prof. George Donohoe",
+      name: "Prof. Christian Gaser",
+      institution: "Jena University Hospital",
+      location: "Jena, Germany",
+      coordinates: [50.88541642677033, 11.622163191868582] as [number, number]
+    },
+    {
+      name: "Prof. Jason Lerch",
+      institution: "Nuffield Department of Clinical Neurosciences",
+      location: "Oxford, UK",
+      coordinates: [51.7655195586652, -1.2205305795707353] as [number, number]
+    },
+    {
+      name: "Prof. Neil Davies",
+      institution: "UCL",
+      location: "London, UK",
+      coordinates: [51.526682235073736, -0.13418288926589161] as [number, number]
+    },
+     {
+      name: "Dr. Ville Karhunen",
+      institution: "MRC Biostatistics Unit",
+      location: "Cambridge, UK",
+      coordinates: [52.17344060688156, 0.14451961867822855] as [number, number]
+    },
+     {
+      name: "Prof. Andrew Simpkin",
       institution: "University of Galway",
       location: "Galway, Ireland",
-      coordinates: [53.2783, -9.0601] as [number, number],
-      role: "Research Partner",
-      focus: "Genomic Risk & Cognitive Function"
+      coordinates: [53.28004576498377, -9.061966541016233] as [number, number]
+    },
+    {
+      name: "Prof. Danai Dima",
+      institution: "City St George's, University of London",
+      location: "London, UK",
+      coordinates: [51.52813874045142, -0.10207616549107786] as [number, number]
+    },
+      {
+      name: "Prof. Jessica Turner",
+      institution: "Ohio State University",
+      location: "Columbus, USA",
+      coordinates: [40.00624501394782, -83.02907779585465] as [number, number]
+    },
+  {
+      name: "Prof. Stefan Ehrlich",
+      institution: "Technical University Dresden",
+      location: "Dresden, Germany",
+      coordinates: [51.02874126888428, 13.73181183632488] as [number, number]
+    },
+  {
+      name: "Prof. Gary Donohoe",
+      institution: "University of Galway",
+      location: "Galway, Ireland",
+      coordinates: [53.28004576498377, -9.061966541016233] as [number, number]
     }
   ];
 
