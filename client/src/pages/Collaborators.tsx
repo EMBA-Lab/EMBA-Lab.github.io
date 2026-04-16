@@ -106,8 +106,8 @@ export default function Collaborators() {
         <section className="mb-24">
           <div className="bg-card border rounded-2xl overflow-hidden shadow-sm h-[500px] md:h-[600px] relative z-0">
             <MapContainer 
-              center={[48.0, 5.0]} // Center around Europe
-              zoom={4} 
+              center={[20.0, 0.0]} // Center to show global map
+              zoom={2} 
               scrollWheelZoom={false}
               className="h-full w-full"
             >
