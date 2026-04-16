@@ -1,8 +1,20 @@
 import { Calendar, ArrowRight } from "lucide-react";
+import ohbmImage from "@assets/image_1776171082134.png";
 
 export default function News() {
   // Easy to edit news array. Add new items to the top.
   const newsItems = [
+    {
+      id: 0,
+      date: "June 25, 2025",
+      title: "Lab presents at OHBM Conference",
+      content: [
+        "Dr. Marlene Staginnus attended the Organization for Human Brain Mapping (OHBM) conference.",
+        "She presented her latest findings on the neurobiological markers of resilience in aging populations using large-scale MRI datasets.",
+        "Great discussions and feedback from the neuroimaging community!"
+      ],
+      image: ohbmImage
+    },
     {
       id: 1,
       date: "March 15, 2025",
@@ -63,7 +75,7 @@ export default function News() {
               className="bg-card rounded-2xl border border-border/50 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
             >
               {item.image && (
-                <div className="w-full h-64 overflow-hidden bg-muted">
+                <div className="w-full aspect-[2/1] overflow-hidden bg-muted">
                   <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
                 </div>
               )}
