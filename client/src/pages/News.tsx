@@ -13,6 +13,15 @@ export default function News() {
   // Easy to edit news array. Add new items to the top.
   const newsItems = [
     {
+      id: 9,
+      date: "May, 2026",
+      title: "SOBP conference succcess",
+      content: [
+        "Amazing lab group representation at SOBP in New York, including our MIND work on the developmental links between epigenetic age and brain age measures and our work on urban health."
+      ],
+      image: 
+    },
+    {
       id: 8,
       date: "April, 2026",
       title: "Lab presents at IMGC Conference",
