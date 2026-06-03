@@ -6,6 +6,7 @@ import housingfilmImage from "@assets/image_1773834250251b.png";
 import retreatImage from "@assets/image_1773834250252b.png";
 import xmasImage from "@assets/image_1773834250253.png";
 import wcpgImage from "@assets/image_1773834250254.png";
+import sobpImage from "@assets/image_1773834250256.png";
 
 
 
@@ -19,7 +20,7 @@ export default function News() {
       content: [
         "Amazing lab group representation at SOBP in New York, including our MIND work on the developmental links between epigenetic age and brain age measures and our work on urban health."
       ],
-      image: 
+      image: sobpImage
     },
     {
       id: 8,
