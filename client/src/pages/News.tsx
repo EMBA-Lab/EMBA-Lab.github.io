@@ -7,12 +7,21 @@ import retreatImage from "@assets/image_1773834250252b.png";
 import xmasImage from "@assets/image_1773834250253.png";
 import wcpgImage from "@assets/image_1773834250254.png";
 import sobpImage from "@assets/image_1773834250256.png";
-
+import godfreyImage from "@assets/image_1773834250257.png";
 
 
 export default function News() {
   // Easy to edit news array. Add new items to the top.
   const newsItems = [
+    {
+      id: 10,
+      date: "June, 2026",
+      title: "And the award goes to...",
+      content: [
+        "Faye Sanders wins the 2026 Godfrey and Sue Hall Doctoral Researcher Prize for her research, 'Building Healthy Cities: Exploring Connections between the Built Environment, Travel Choices, and Health’. We're so proud of you, Faye! Well done."
+      ],
+      image: godfreyImage
+    },
     {
       id: 9,
       date: "May, 2026",
